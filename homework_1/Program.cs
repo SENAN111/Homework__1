@@ -8,6 +8,8 @@ if (eded==0)
 }
 else
 {
+    if (eded < 0)
+    { eded = eded * -1; }
     while(eded!=0)
     {
         mertebe = eded % 10;
